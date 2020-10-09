@@ -1,11 +1,7 @@
-{- Assignment 2
- - Name: `Shubham Ahuja`
- - Date: 21 october 2018
- -}
-module Assign_2 where
+
+
 import Data.List
-macid :: String
-macid = "ahujas6"
+
 
 type Vector = (Double,Double,Double)
 
