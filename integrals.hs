@@ -1,11 +1,3 @@
-{- Assignment 5
- - Name: shubham ahuja
- - Date: 18 nov 2018
- -}
-module Assign_5 where
-
-macid :: String
-macid = "ahujas6"
 
 
 {- -----------------------------------------------------------------
