@@ -1,10 +1,3 @@
-{- Assignment 3 Extra Credit
- - Name: SHUBHAM AHUJA
- - Date: 23 OCTOBER 2018
- -}
-module Assign_3_ExtraCredit where
-
-macid = "TODO: put your mac id here"
 
 data PolyAlt a = Monomial a Integer
                | SumAlt (PolyAlt a) (PolyAlt a)
