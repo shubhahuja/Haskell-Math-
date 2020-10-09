@@ -1,13 +1,5 @@
-{- Assignment 4
- - Name: shubham ahuja
- - Date: 7 november 2018
- -}
-module Assign_4 where
+
 import Data.List
-
-macid :: String
-macid = "ahujas6"
-
 
 
 data Poly a = X
