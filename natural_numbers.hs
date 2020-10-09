@@ -1,13 +1,5 @@
-{- Assignment 4 Extra Credit
- - Name:shubham ahuja
- - Date: 17th nov 2018
- -}
-module Assign_4_ExtraCredit where
 
 import Criterion.Main
-
-macid = "ahujas6"
-
 
 data Nat = Z
          | S Nat
