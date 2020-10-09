@@ -1,11 +1,6 @@
-{- Assignment 1 Extra Credit
- - Name: SHUBHAM AHUJA
- - Date: 21 OCTOBER 2018
- -}
-module Assign_2_ExtraCredit where
+
 import Data.List
 
-macid = "TODO: put your mac id here"
 
 newtype Vector2 a = Vector2 (a,a)
   deriving (Show,Eq)
