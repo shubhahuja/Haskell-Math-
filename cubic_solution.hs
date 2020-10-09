@@ -1,15 +1,8 @@
-{- Assignment 1
- - Name: TODO add full name
- - Date: TODO add of completion
- -}
 
-module Assign_1_ExtraCredit where
 
 import Data.Complex
 -- import Data.Complex -- TODO uncomment me to use built-in Complex type
 -- see https://www.stackage.org/haddock/lts-8.24/base-4.9.1.0/Data-Complex.html
-
-macid = "TODO: put your mac id here"
 
 cubicQ :: Double -> Double -> Double -> Double
 cubicQ a b c =(3*a*c -b*b)/(9*a*a)
@@ -26,7 +19,7 @@ cubicRoot x= if x<0
 {- -----------------------------------------------------------------
  - cubicDisc
  - -----------------------------------------------------------------
- - Description: TODO add comments on cubicDisc here
+
  -}
 cubicDisc :: Double -> Double -> Double
 cubicDisc q r = q*q*q +r*r
@@ -34,7 +27,7 @@ cubicDisc q r = q*q*q +r*r
 {- -----------------------------------------------------------------
  - cubicS
  - -----------------------------------------------------------------
- - Description: TODO add comments on cubicS here
+
  -}
 
 cubicComplexS :: Double -> Double -> Complex Double
@@ -43,7 +36,7 @@ cubicComplexS q r =cubicRoot ((r+(q*q*q+r*r)**0.5)):+0
 {- -----------------------------------------------------------------
  - cubicT
  - -----------------------------------------------------------------
- - Description: TODO add comments on cubicT here
+
  -}
 cubicComplexT :: Double -> Double -> Complex Double
 cubicComplexT q r = cubicRoot ((r-(q*q*q+r*r)**0.5)):+0
@@ -51,7 +44,7 @@ cubicComplexT q r = cubicRoot ((r-(q*q*q+r*r)**0.5)):+0
 {- -----------------------------------------------------------------
  - cubicRealSolutions
  - -----------------------------------------------------------------
- - Description: TODO add comments on cubicRealSolutions here
+
  -}
 cubicComplexSolutions :: Double -> Double -> Double -> Double -> [Complex Double]
 cubicComplexSolutions a b c d =
